@@ -1,0 +1,66 @@
+.uncommonTip {
+	width: 20px;
+	height: 20px;
+	background: url(../img/unCommonWordPic.png) left bottom no-repeat;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+}
+.unfamiliarDiv {
+	width: 286px;
+	border: 1px solid #95B8E7;
+	position: absolute;
+}
+.unfamiliar-title {
+	font-size: 12px;
+	font-weight: bold;
+	height: 16px;
+	line-height: 16px;
+	color: #0E2D5F;
+	padding: 6px;
+	border-bottom: 1px solid #95B8E7;
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFF5FF), color-stop(100%,#E0ECFF));  
+    background-image:-moz-linear-gradient(top,  #EFF5FF 0%, #E0ECFF 100%);
+    background-image:-o-linear-gradient(top,  #EFF5FF 0%, #E0ECFF 100%);  
+    background-image:linear-gradient(top,  #EFF5FF 0%, #E0ECFF 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF, endColorstr=#E0ECFF, GradientType=0);
+    _background-color: #E0ECFF;
+}
+.unfamiliarText {
+	float: left;
+}
+.unfamiliarClose {
+	text-indent: -1000px;
+	width: 16px;
+	height: 16px;
+	float: right;
+	background: url(../img/unCommonWordPic.png) left top no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.unfamiliar-spells span {
+	font-weight: bold;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #b7d2ff;
+	margin: 1px;
+	float: left;
+	cursor: pointer;
+}
+.unfamiliar-spells .spanOver, .unfamiliar-words .spanOver {
+	color: white;
+	background-color: #0437c8;
+}
+.unfamiliar-words span {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #E2C608;
+	margin: 1px;
+	float: left;
+	cursor: pointer;
+}
